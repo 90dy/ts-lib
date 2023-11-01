@@ -13,7 +13,7 @@ jobs:
       matrix:
         node-version: [18]
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - uses: 90dy/gha-pnpm-release@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

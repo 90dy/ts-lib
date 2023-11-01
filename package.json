@@ -7,7 +7,7 @@
   "description": "A library template",
   "main": "index.ts",
   "release": {
-    "extends": "90dy"
+    "extends": "90dy/semantic-config"
   },
   "eslintConfig": {
     "extends": "90dy"
